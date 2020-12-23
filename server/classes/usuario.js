@@ -9,7 +9,7 @@ class Usuarios {
             let persona = {id,nombre,sala};
 
             this.personas.push(persona);
-
+            console.log(this.personas);
             return this.personas;
 
         }
